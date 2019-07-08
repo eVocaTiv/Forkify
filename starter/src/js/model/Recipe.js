@@ -83,7 +83,7 @@ export default class Recipe {
                     ingredient
                 }
             }
-            return ingredient;
+            return objIng;
         })
         this.ingredients = newIng;
     }
